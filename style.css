@@ -476,6 +476,11 @@ margin-bottom: 20px;
             } 
     }
     @media(max-width: 550px){
+        .nav3 li{
+            padding: 12px;
+            font-weight: 700;
+            font-size: 13px;
+        }
         .foot h3{
             font-size: 17px;
             margin-bottom: 20px;
@@ -497,7 +502,7 @@ margin-bottom: 20px;
         }
         .wat a{
             font-weight: 800;
-            font-size: 6px;
+            font-size: 10px;
         }
         .wat p{
             font-size: 10px;
@@ -616,7 +621,34 @@ margin-bottom: 20px;
             line-height: 25px;
         }
     }
+
+    
+    @media(max-width: 390px){
+        .hea h1{
+            font-size: 14px;
+            padding: 15px;
+        } 
+        .img img{
+            width: 60px;
+            height: 60px;
+        }  
+        .frm input{
+            width: 65%;
+            padding: 4px;
+            border-radius: 5px;
+            border: 1px solid rgb(57, 56, 56);
+        }
+        .frm button{
+            padding: 4px 8px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
     @media(max-width: 345px){
+        .img img{
+            width: 40px;
+            height: 40px;
+        }  
         .dis1 h1{
             font-weight: 800; 
             font-size: 16px;
@@ -652,34 +684,17 @@ margin-bottom: 20px;
             /* text-align: left; */
         }
     }
-    
-    @media(max-width: 390px){
-        .hea h1{
-            font-size: 14px;
-            padding: 15px;
-        } 
-        .img img{
-            width: 60px;
-            height: 60px;
-        }  
-        .frm input{
-            width: 65%;
-            padding: 4px;
-            border-radius: 5px;
-            border: 1px solid rgb(57, 56, 56);
-        }
-        .frm button{
-            padding: 4px 8px;
-            font-weight: 700;
-            font-size: 14px;
-        }
-    }
- 
-    @media(max-width: 320px){
+    @media(max-width: 323px){
         .hea h1{
             font-size: 12px;
             padding: 15px;
-        }    
+        }
+      .wat a{
+        font-size: 8px;
+      }   
+      .wat p{
+        font-size: 8px;
+      }
     }
     @media(max-width: 300px){
         .dis1{
@@ -692,4 +707,16 @@ margin-bottom: 20px;
             height: 70%;
             /* text-align: left; */
         }  
+    }
+    @media(max-width: 289px){
+        .img img{
+            width: 30px;
+            height: 35px;
+        } 
+    }
+    @media(max-width: 282px){
+        .hea h1{
+            font-size: 12px;
+            padding: 14px;
+        }
     }
